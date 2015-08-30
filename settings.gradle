@@ -1,1 +1,1 @@
-include ':app', ':fab-loading'
+include ':fab-loading', ':sample'

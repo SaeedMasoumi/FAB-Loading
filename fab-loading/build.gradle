@@ -8,7 +8,7 @@ android {
     minSdkVersion 9
     targetSdkVersion 23
     versionCode 1
-    versionName "1.0"
+    versionName "0.5.0"
   }
   buildTypes {
     release {
@@ -22,3 +22,22 @@ dependencies {
   compile 'com.melnykov:floatingactionbutton:1.3.0'
   compile 'io.saeid:support-animator:0.2.1'
 }
+
+ext {
+  bintrayRepo = 'maven'
+  bintrayName = 'fab-loading'
+
+  publishedGroupId = 'io.saeid'
+  libraryName = 'fab-loading'
+
+  artifact = 'fab-loading'
+
+  libraryDescription = 'A loading animation based on Floating Action Button'
+  libraryVersion = '0.5.0'
+
+  developerId = 'smasoumi'
+  developerName = 'Saeed Masoumi'
+  developerEmail = 's-masoumi@live.com'
+
+}
+apply from: 'https://raw.githubusercontent.com/smasoumi/Bintray/master/bintray_no_javadoc.gradle'
