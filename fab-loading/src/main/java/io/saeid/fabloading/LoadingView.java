@@ -153,7 +153,7 @@ public class LoadingView extends FloatingActionButton implements SupportAnimator
     if (!mRunning) {
       //set first item as default item
       if (mItems.size() == 0) {
-        setImageDrawable(getResources().getDrawable(drawable));
+        if (drawable != 0) setImageDrawable(getResources().getDrawable(drawable));
         setColorNormal(color);
         setColorPressed(color);
         setColorRipple(Color.TRANSPARENT);

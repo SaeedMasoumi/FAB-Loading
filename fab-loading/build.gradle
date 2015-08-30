@@ -8,7 +8,7 @@ android {
     minSdkVersion 9
     targetSdkVersion 23
     versionCode 1
-    versionName "0.5.0"
+    versionName "0.6.0"
   }
   buildTypes {
     release {
@@ -33,7 +33,7 @@ ext {
   artifact = 'fab-loading'
 
   libraryDescription = 'A loading animation based on Floating Action Button'
-  libraryVersion = '0.5.0'
+  libraryVersion = '0.6.0'
 
   developerId = 'smasoumi'
   developerName = 'Saeed Masoumi'
