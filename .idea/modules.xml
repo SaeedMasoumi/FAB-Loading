@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///run/media/saeed/Saeed/Projects/FABLoading/FABLoading.iml" filepath="/run/media/saeed/Saeed/Projects/FABLoading/FABLoading.iml" />
+      <module fileurl="file:///run/media/saeed/Saeed/Projects/FABLoading/fab-loading/fab-loading.iml" filepath="/run/media/saeed/Saeed/Projects/FABLoading/fab-loading/fab-loading.iml" />
+      <module fileurl="file:///run/media/saeed/Saeed/Projects/FABLoading/app/sample.iml" filepath="/run/media/saeed/Saeed/Projects/FABLoading/app/sample.iml" />
+    </modules>
+  </component>
+</project>

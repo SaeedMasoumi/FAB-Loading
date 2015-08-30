@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="LoadingView">
+    <attr name="mfl_onclickLoading"
+        format="boolean"/>
+    <attr name="mfl_duration"
+        format="integer"/>
+    <attr name="mfl_repeat"
+        format="integer"/>
+  </declare-styleable>
+</resources>
