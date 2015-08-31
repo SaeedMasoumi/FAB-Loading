@@ -23,8 +23,9 @@ Usage
       app:mfl_repeat="4" //(optional)
       />
 ```
-  2.Add your loading items:
-
+  2.Add your loading items.
+  
+     *Note that there are four types of loading animation, `LoadingView.FROM_LEFT`, `LoadingView.FROM_TOP`,          `LoadingView.FROM_RIGHT`, `LoadingView.FROM_BOTTOM`.*
   ```
     mLoadingView = (LoadingView) findViewById(R.id.loading_view);
     mLoadingView.addAnimation(yourColor,yourDrawable,yourLoadingType);
