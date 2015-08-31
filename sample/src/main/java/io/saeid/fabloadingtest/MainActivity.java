@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity {
     });
 
      mLoadViewNoRepeat = (LoadingView) findViewById(R.id.loading_view);
-    mLoadViewNoRepeat.addAnimation(Color.parseColor("#FFD200"), marvel_1, LoadingView.FROM_LEFT);
     mLoadViewNoRepeat.addAnimation(Color.parseColor("#2F5DA9"), marvel_2, LoadingView.FROM_LEFT);
-    mLoadViewNoRepeat.addAnimation(Color.parseColor("#FF4218"), marvel_3, LoadingView.FROM_RIGHT);
+    mLoadViewNoRepeat.addAnimation(Color.parseColor("#FF4218"), marvel_3, LoadingView.FROM_LEFT);
+    mLoadViewNoRepeat.addAnimation(Color.parseColor("#FFD200"), marvel_1, LoadingView.FROM_RIGHT);
     mLoadViewNoRepeat.addAnimation(Color.parseColor("#C7E7FB"), marvel_4, LoadingView.FROM_RIGHT);
 
      mLoadViewLong = (LoadingView) findViewById(R.id.loading_view_long);
-    mLoadViewLong.addAnimation(Color.parseColor("#FFD200"), marvel_1, LoadingView.FROM_TOP);
-    mLoadViewLong.addAnimation(Color.parseColor("#2F5DA9"), marvel_2, LoadingView.FROM_BOTTOM);
+    mLoadViewLong.addAnimation(Color.parseColor("#FF4218"), marvel_3, LoadingView.FROM_TOP);
+    mLoadViewLong.addAnimation(Color.parseColor("#C7E7FB"), marvel_4, LoadingView.FROM_BOTTOM);
     mLoadViewLong.addAnimation(Color.parseColor("#FF4218"), marvel_3, LoadingView.FROM_TOP);
     mLoadViewLong.addAnimation(Color.parseColor("#C7E7FB"), marvel_4, LoadingView.FROM_BOTTOM);
 

@@ -20,7 +20,7 @@
       android:scaleY="1"
       app:mfl_onclickLoading="true"
       android:layout_marginBottom="40dp"
-      app:mfl_duration="1000"
+      app:mfl_duration="400"
       />
   <io.saeid.fabloading.LoadingView
       android:id="@+id/loading_view"
@@ -31,7 +31,7 @@
       android:layout_marginBottom="60dp"
       android:scaleY="1.5"
       app:mfl_onclickLoading="true"
-      app:mfl_duration="200"
+      app:mfl_duration="400"
       />
   <io.saeid.fabloading.LoadingView
       android:id="@+id/loading_view_repeat"
@@ -41,8 +41,8 @@
       android:scaleX="2"
       android:scaleY="2"
       app:mfl_onclickLoading="true"
-      app:mfl_duration="500"
-      app:mfl_repeat="4"
+      app:mfl_duration="400"
+      app:mfl_repeat="1"
       />
 
   <View

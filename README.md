@@ -80,4 +80,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 [1]: https://raw.githubusercontent.com/smasoumi/FAB-Loading/master/images/marvel_loader.gif
-[2]: https://raw.githubusercontent.com/smasoumi/FAB-Loading/master/images/preview.png
+[2]: https://raw.githubusercontent.com/smasoumi/FAB-Loading/master/images/preview.gif
