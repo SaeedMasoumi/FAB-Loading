@@ -15,7 +15,6 @@ Usage
       android:id="@+id/loading_view"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_weight="1"
       android:scaleX="1.5" //(optional)
       android:scaleY="1.5" // (optional)
       app:mfl_onclickLoading="true" //(optional)
