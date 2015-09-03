@@ -1,4 +1,4 @@
-FAB-Loading
+FAB-Loading [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FAB--Loading-green.svg?style=flat)](https://android-arsenal.com/details/1/2418)
 ==========================
 A loading animation based on Floating Action Button.
 
@@ -15,7 +15,6 @@ Usage
       android:id="@+id/loading_view"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_weight="1"
       android:scaleX="1.5" //(optional)
       android:scaleY="1.5" // (optional)
       app:mfl_onclickLoading="true" //(optional)
@@ -23,8 +22,9 @@ Usage
       app:mfl_repeat="4" //(optional)
       />
 ```
-  2.Add your loading items:
-
+  2.Add your loading items.
+  
+     *Note that there are four types of loading animation, `LoadingView.FROM_LEFT`, `LoadingView.FROM_TOP`,          `LoadingView.FROM_RIGHT`, `LoadingView.FROM_BOTTOM`.*
   ```
     mLoadingView = (LoadingView) findViewById(R.id.loading_view);
     mLoadingView.addAnimation(yourColor,yourDrawable,yourLoadingType);
