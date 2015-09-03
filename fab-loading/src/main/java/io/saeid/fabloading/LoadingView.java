@@ -124,7 +124,7 @@ public class LoadingView extends FloatingActionButton implements SupportAnimator
     if (attr != null) {
       try {
         mLoadingOnClick = attr.getBoolean(R.styleable.LoadingView_mfl_onclickLoading, false);
-        mDuration = attr.getInt(R.styleable.LoadingView_mfl_duration, 400);
+        mDuration = attr.getInt(R.styleable.LoadingView_mfl_duration, 500);
         mRepeats = attr.getInt(R.styleable.LoadingView_mfl_repeat, 1);
         mRepeatCounter = mRepeats;
       } finally {
