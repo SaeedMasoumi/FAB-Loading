@@ -1,43 +1,34 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
-  compileSdkVersion 23
-  buildToolsVersion "23.0.0"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
 
-  defaultConfig {
-    minSdkVersion 9
-    targetSdkVersion 23
-    versionCode 1
-    versionName "0.6.0"
-  }
-  buildTypes {
-    release {
-      minifyEnabled false
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 1
+        versionName "0.6.0"
     }
-  }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
 }
 
 dependencies {
-  compile 'com.melnykov:floatingactionbutton:1.3.0'
-  compile 'io.saeid:support-animator:0.2.1'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'io.saeid:support-animator:0.2.1'
 }
 
-ext {
-  bintrayRepo = 'maven'
-  bintrayName = 'fab-loading'
-
-  publishedGroupId = 'io.saeid'
-  libraryName = 'fab-loading'
-
-  artifact = 'fab-loading'
-
-  libraryDescription = 'A loading animation based on Floating Action Button'
-  libraryVersion = '0.6.0'
-
-  developerId = 'smasoumi'
-  developerName = 'Saeed Masoumi'
-  developerEmail = 's-masoumi@live.com'
-
+publish {
+    groupId = 'io.saeid'
+    artifactId = 'fab-loading'
+    publishVersion = '1.0.0'
+    desc = 'A loading animation based on Floating Action Button'
+    website = 'https://github.com/SaeedMasoumi/FAB-Loading/'
 }
-apply from: 'https://raw.githubusercontent.com/smasoumi/Bintray/master/bintray_no_javadoc.gradle'
+
