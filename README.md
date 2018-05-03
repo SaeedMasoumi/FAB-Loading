@@ -55,7 +55,7 @@ XML Attributes
 Installation
 -------
 ```
-compile 'io.saeid:fab-loading:1.0.0'
+implementation 'io.saeid:fab-loading:1.0.0'
 ```
 
 Credits
